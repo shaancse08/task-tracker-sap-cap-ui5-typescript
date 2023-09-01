@@ -44,3 +44,5 @@ tsc --init
 command.
 
 Once the generation are done we are good to go to start the project. So now as a next step we will create the [Schema](../db/Schema.cds) file to mode lour Database.
+
+Changed
