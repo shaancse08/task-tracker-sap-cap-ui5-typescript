@@ -1,5 +1,6 @@
-using my.bookshop as my from '../db/data-model';
+using task.tracker.db as db from '../db/data-model';
 
 service CatalogService {
-    @readonly entity Books as projection on my.Books;
+    entity Tasks as projection on db.Tasks;
+    entity Users as projection on db.Users;
 }
