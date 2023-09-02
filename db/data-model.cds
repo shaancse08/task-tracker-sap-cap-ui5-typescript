@@ -10,7 +10,7 @@ using {managed} from '@sap/cds/common';
  * task.tracker.db-Tasks.csv
  */
 entity Tasks : managed {
-  key ID          : UUID;
+  key ID          : UUID @title: '{i18n>ID}';
       name        : String;
       description : String;
       status      : types.Status;
