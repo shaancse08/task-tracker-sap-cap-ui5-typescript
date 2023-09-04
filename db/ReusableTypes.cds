@@ -1,7 +1,8 @@
 namespace reusable.types;
 
 
-type Status : Integer enum {
+@assert.range
+type Status   : Integer enum {
     Open       = 1;
     InProgress = 2;
     Testing    = 3;
@@ -9,3 +10,10 @@ type Status : Integer enum {
     InReview   = 5;
     Closed     = 6;
 };
+
+@assert.range
+type Priority : Integer enum {
+    High       = 1;
+    Medium     = 2;
+    Low        = 3
+}
