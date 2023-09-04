@@ -45,3 +45,10 @@ command.
 
 Once the generation are done we are good to go to start the project. So now as a next step we will create the [Schema](../db/Schema.cds) file to mode lour Database.
 
+## UI5 Project Generation using TypeScript
+
+Now once all are done we will generate the UI5 application enabling the TypeScript init. To do so we will follow the normal step how we generate the UI5 application and apart from the normal application we will use the below options checked.
+
+![Alt text](image.png)
+
+More details can be found [Here](https://blogs.sap.com/2023/07/27/typescript-for-ui5-yay-its-official-and-a-round-up-of-recent-changes/)
